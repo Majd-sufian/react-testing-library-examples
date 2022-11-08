@@ -3,7 +3,7 @@ import { Application } from "./Application";
 
 describe("Application", () => {
   test("renders correctly", () => {
-    const view = render(<Application />);
+    render(<Application />);
 
     const pageHeading = screen.getByRole("heading", {
       name: "Job application form",
