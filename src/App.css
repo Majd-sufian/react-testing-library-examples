@@ -1,0 +1,6 @@
+.piechart {
+  width: 200px;
+  height: 200px;
+  background-image: conic-gradient(green, var(--percentage), lightgreen 0);
+  border-radius: 50%;
+}
